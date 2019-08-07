@@ -1,6 +1,6 @@
 'use strict'; //can't use undeclared variables 
 
-const omdb = new (require('omdbapi'))('9d1e34f3');
+const omdb = new (require('omdbapi'))(process.env.OMDB_API_KEY);
 
 module.exports = {
 

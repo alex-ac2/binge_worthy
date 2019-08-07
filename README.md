@@ -1,14 +1,4 @@
-# Node Skeleton
-
-## Project Setup
-
-1. Create your own empty repo on GitHub
-2. Clone this repository (do not fork)
-  - Suggestion: When cloning, specify a different folder name that is relevant to your project
-3. Remove the git remote: `git remote rm origin`
-4. Add a remote for your origin: `git remote add origin <your github repo URL>`
-5. Push to the new origin: `git push -u origin master`
-6. Verify that the skeleton code now shows up in your repo on GitHub
+# smartCat
 
 ## Getting Started
 
@@ -24,6 +14,24 @@
 8. Visit `http://localhost:8080/`
 
 ## Dependencies
+  * Node
+  * Knex
+  * Express
+  * Ejs
+  * Cookie-Parser
+  * Body-Parser
+  * Pg
+  * Yelp-fusion
+  * String-similarity
+  * Omdbapi
+  * dotenv
 
-- Node 5.10.x or above
-- NPM 3.8.x or above
+---
+
+## Final Project
+
+Username update notification: 
+!["Username update notification"](docs/screenshots/smartCat_loginPage.png)
+
+Main Page:
+!["Main Page"](docs/screenshots/smartCat_mainPage.png)
