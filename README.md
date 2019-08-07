@@ -30,7 +30,7 @@
 
 ## Final Project
 
-Username update notification: 
+Login Page: 
 !["Username update notification"](docs/screenshots/smartCat_loginPage.png)
 
 Main Page:
