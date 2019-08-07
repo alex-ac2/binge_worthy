@@ -8,7 +8,7 @@ module.exports = {
 
   yelpQuery: (userListInput, callback) => {
 
-    const apiKey = "McPYM7tNIHxSF-p102HlAmcK_pAeyNd1rfpwXzJsT1iJ2OCTdggb_6leU1-sV1Kg3P-DYlpy_uzRcfmDf1BJ0h8Ase8Z4PMsUnKUeIC8jtgUg4zAG2tFTmFLj68LXXYx";
+    const apiKey = process.env.YELP_API_KEY;
 
     const searchRequest = {
       term: userListInput,
